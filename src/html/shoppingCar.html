@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/shoppingcar.css" />
+        <script type="text/javascript" src="../lib/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="../js/shoppingCar.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="header">
+                <div class="header1 fl">
+                    <img src="../images/shopping_header1.jpg" alt="" />
+                </div>
+                <div class="header2 fl">
+                    9年品质保证
+                </div>
+                <div class="header3 fl">7天无条件退货款</div>
+                <div class="header4 fl">
+                    <a href="#">欢迎光临梦芭莎</a>
+                    <a href="#">登录</a>
+                    <a href="#">注册</a>
+                   
+                </div>
+                <div class="header5 fr">
+                    <a href="#">帮助中心</a>
+                    <a href="#">微信</a>
+                    <a href="#">手机版</a>
+                </div>
+                 <div class="header6 fr">
+                     <img src="../images/shopping_log.png" alt="" />
+                 </div>
+            </div>
+        </div>
+        <!-- 购物车部分 -->
+        <div id="shop">
+            <div class="shopping_header">
+                <ul>
+                    
+                    <li><input type="checkbox" id="checkall"/>全部</li>
+                    <li>商品</li>
+                    <li>单价</li>
+                    <li>数量</li>
+                    <li>金额</li>
+                    <li>操作</li>
+                </ul>
+            </div>
+            <div class="shoppingcar con">
+            <img src="../images/shoppingcar_2.png" alt="" />
+                <ul class="carList">
+                    <li guid="1">
+                        <!-- <input type="checkbox" id="check" /> -->
+                        <img src="../images/list_pp2.jpg" alt="" />
+                        <h6>针织衫毛衣春款</h6>
+                        <div class="number">
+                            <input type="text" placeholder="-"  class="jian"/><input type="text" value="2" class="val" /><input type="text" placeholder="+"  class="jia" />
+                        </div>
+                        <span class="shop_s1">388</span>
+                        <span class="shop_s2">388</span>
+                        <p>
+                            <span class="shop_s3">修改</span>
+                            <span class="shop_s4">移除</span>
+                        </p>
+                        <a href="" class="remove"></a>
+                    </li>
+                    
+                     <li guid="2">
+                        <input type="checkbox" id="check" />
+                        <img src="../images/list_pp2.jpg" alt="" />
+                        <h6>针织衫毛衣春款</h6>
+                        <div class="number">
+                            <input type="text" placeholder="-"  class="jian"/><input type="text" value="2" class="val" /><input type="text" placeholder="+"  class="jia" />
+                        </div>
+                        <span class="shop_s1">388</span>
+                        <span class="shop_s2">388</span>
+                        <p>
+                            <span class="shop_s3">修改</span>
+                            <span class="shop_s4">移除</span>
+                        </p>
+                        <a href="" class="remove"></a>
+                    </li>
+    
+                  <!--   <li guid="'+item.idx+'">+
+                        <img src="'+item.imgurl+'" alt="" />'+
+                        '<h6>'+item.name+'</h6>'+
+                        '<div class="number">'+
+                            '<a href="JavaScript:;" class="jian"></a>'+
+                            '<input type="text" value="'+item.qty+'" class="val" />'+
+                            '<a href="JavaScript:;" class="jia"></a>'+
+                        '</div>'+
+                        '<span>'+item.xianjia+'</span>'+
+                        '<p>'+add+'</p>'+
+                        '<a href="JavaScript:;" class="remove"></a>'+
+                    '</li>; -->
+
+
+
+
+
+                </ul>
+                <div class="count">
+<!--                     <a href="inbox.html"class="return">Continue shopping</a><br />
+                    <a href="JavaScript:;" class="emptyCart">Empty Cart</a>
+                    <div class="pay">
+                        <p class="prices"></p>
+                        <a href="account.html"><img src="../images/checkout.png" alt="" /></a> 
+                    </div> -->
+                    <div class="zongji">
+                        <p>商品数量总计：<span class="zongji_s1">11</span>&nbsp;&nbsp;折后价格：￥<span class="zongji_s2">1166</span></p>
+                        <input type="button" value="去结算" id="shop_btn"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

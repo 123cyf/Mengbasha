@@ -1,0 +1,135 @@
+#header{
+    height:110px;
+    background:#DDDBDC;
+}
+.header{
+    height:110px;
+    background:#DDDBDC;
+    padding-left:50px;
+}
+#main{
+    height:586px;
+    background:#FFFFFF;
+}
+.main{
+    height:586px;
+    background:#FFFFFF;
+    padding-top:20px;
+    padding-left:50px;
+}
+.main .main_l{
+    height:586px;
+    width:440px;
+}
+.main .main_r{
+    height:586px;
+    width:404px;
+  
+}
+.main .main_r .main_rt{
+    height:40px;
+
+}
+.main .main_r .main_rt a:nth-child(1){
+    display:inline-block;
+    margin:0 150px 0 50px;
+}
+.main .main_r .main_rb{
+    border:1px solid #ccc;
+    padding-left:10px;
+    padding-top:15px;
+
+}
+
+.main .main_r .main_rb .div_1 .int1{
+    border:1px solid #ccc;
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    text-align:left;
+    line-height:40px;
+    padding-left:30px;
+    background:url(../images/regist_phone.png) no-repeat left center;
+    margin-bottom:26px;
+}
+.main .main_r .main_rb .div_1 .tips{
+    border:1px solid red;
+    height:10px;
+    width:50px;
+}
+.main .main_r .main_rb .div_2{
+    height:62px;
+
+}
+.main .main_r .main_rb .div_2 span{
+    padding-right:20px;
+    font-size:12px;
+    color:#797979;
+    float:right;
+
+}
+.main .main_r .main_rb .div_2 .in1{
+    height:30px;
+    width:123px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    line-height:30px;
+    text-align:center;
+
+}
+/*.main .main_r .main_rb .div_2 .in2{
+    height:45px;
+    width:
+}*/
+.main .main_r .main_rb .div_3 .in2{
+    height:30px;
+    width:123px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    line-height:30px;
+    text-align:center;
+    margin-right:30px;
+}
+.main .main_r .main_rb .div_3 .btn1{
+    height:30px;
+    width:123px;
+    background:#F2F2F2;
+    border:1px solid #ccc;
+    border-radius:5px;
+    line-height:30px;
+    text-align:center;
+}
+.main .main_r .main_rb .div_4{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+.main .main_r .main_rb .div_4 .in3{
+    width:326px;
+    height:40px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin-bottom:30px;
+    padding-left:30px;
+    background:url(../images/regist_mima.png) no-repeat 5px center;
+}
+.main .main_r .main_rb .div_4 .in4{
+    width:326px;
+    height:40px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding-left:30px;
+    background:url(../images/regist_mima.png) no-repeat 5px center;
+}
+.main .main_r .main_rb .btn2{
+    width:326px;
+    height:40px;
+    background:#E30165;
+    color:#FFFFFF;
+    border:1px solid #E30165;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+.main .main_r .main_rb  .a1{
+    list-style:none;
+    color:#E30164;
+}

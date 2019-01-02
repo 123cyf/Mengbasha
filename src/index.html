@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+
+        <link rel="stylesheet" type="text/css" href="lib/jquery-lmCarousel/jquery-lmCarousel.css" />
+        <script src="lib/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="lib/jquery-lmCarousel/jquery-lmCarousel.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <!-- <base href="./html" /> -->
+
+    </head>
+    <body>
+        <!-- 头部header -->
+        <div id="header">
+            <div class="header con">
+                <ul class="u1 fl">
+                    <li><span class="sp1">100%正品保证</span></li>
+                    <li><span>创立于2006年</span></li>
+                </ul>
+                <ul class="u2 fr">
+                    <li><a href="html/login.html">登录</a></li>
+                    <li><a href="#">注册</a></li>
+                    <li><a href="#">微信</a>
+                        <ul class="header_u3">
+                            <li><img src="images/header_weixin.jpg" alt="" /></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">微博</a>
+                        <ul class="header_u4">
+                            <li><img src="images/header_weibo.jpg" alt="" /></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">手机版</a>
+                        <ul class="header_u5">
+                            <li><img src="images/mengbashashouji.jpg" alt="" /></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">收藏梦芭莎</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">购物车</a>
+                        <div class="header_u6">
+                            <ul >
+                                <li>
+                                    <img src="images/details_shangpin1.jpg" alt="" />
+                                    <h4>漂亮马甲冬款</h4>
+                                    <span class="header_u6_s1">￥399</span>
+                                    <span class="header_u6_s2">*2</span>
+                                    <input id="header_u6_in1" type="button" value="删除" />
+                                </li>
+                                <li>
+                                     <img src="images/details_shangpin1.jpg" alt="" />
+                                    <h4>漂亮马甲冬款</h4>
+                                    <span class="header_u6_s1">￥399</span>
+                                    <span class="header_u6_s2">*2</span>
+                                    <input id="header_u6_in1" type="button" value="删除" />
+                                </li>
+                                <!-- <li>
+                                    <img src="images/details_shangpin1.jpg" alt="" />
+                                    <h4>漂亮马甲冬款</h4>
+                                    <span class="header_u6_s1">￥399</span>
+                                    <span class="header_u6_s2">*2</span>
+                                    <input id="header_u6_in1" type="button" value="删除" />
+                                </li> -->
+                            </ul>
+                            <div class="header_u7">
+                                <p class="jiesuan_p3">
+                                    共计<span class="jiesuan_s1">21</span>件商品
+                                    <span class="jiesuan_s2">￥1190</span>
+                                </p>
+                                <input type="text" id="jiesuan_inp1"value="去购物车结算" />
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 定位侧边栏 -->
+        <div class="aside"> 
+            <div class="Top">Top
+                <div class="toTop">返回顶部</div>
+            </div>
+            <ul class="aside_u1">
+                <li><i class="iconfont icon-lianxiren"></i>
+                    <div class="aside_u2">
+                        <img src="images/aside_denglu.jpg"/><br />
+                        <span>请先登录哦！</span><br />
+                        <input type="text" value="登录" id="inp1" /><input type="text" value="注册" id="inp2"/><br />
+                        <p><input type="text" value="我的订单" id="inp3" /><input type="text" value="我的收藏" id="inp4"/></p>
+                        
+                    </div>
+                </li>
+                <li>
+                    <i class="iconfont icon-gouwuche"></i><a href="">购物车 <span>0</span></a>
+                    <div class="aside_u4">
+                        <h2>购物车</h2>
+                        <p class="aside_u4_p3">梦芭莎</p>
+                        <ul>
+                            <li>
+                                <img src="images/details_shangpin1.jpg" alt="" />
+                                <h4>漂亮马甲冬款</h4>
+                                <p class="p1">
+                                    <span class="c1">尺寸</span><span class="c2">颜色</span>
+                                </p>
+                                <p class="p2">
+                                    <span class="c3">price</span><span class="c4">*数量</span>
+                                </p>
+                                
+                            </li>
+                            <li>
+                                <img src="images/details_shangpin1.jpg" alt="" />
+                                <h4>漂亮马甲冬款</h4>
+                                <p class="p1">
+                                    <span class="c1">尺寸</span><span class="c2">颜色</span>
+                                </p>
+                                <p class="p2">
+                                    <span class="c3">price</span><span class="c4">*数量</span>
+                                </p>
+                            </li>
+                            <li></li>
+                        </ul>
+                        <div class="jiesuan">
+                            <p class="jiesuan_p3">共计<span class="jiesuan_s1">21</span>件商品
+                                <span class="jiesuan_s2">￥1190</span>
+                            </p>
+                            <input type="text" id="jiesuan_inp1"value="去购物车结算" />
+                        </div>
+                    </div>
+                </li>
+                <li style="padding-top:20px;"><i class="iconfont icon-shoucang"></i>
+                <!-- <a href="">收藏</a> -->
+                </li>
+                <li style="padding-top:20px;">
+                    <i class="iconfont icon-weixin"></i>
+                    <ul class="aside_u3">
+                            <li>
+                                <img src="images/mengbashashouji.jpg" alt="" />
+                            </li>
+                    </ul>
+                <!-- <a href="">微信</a> -->
+                </li>
+                <li style="padding-top:20px;"><i class="iconfont icon-kefu"></i>
+                <!-- <a href="">咨询</a> -->
+                </li>
+               
+            </ul>
+         </div>
+        <!-- header下的分区 -->
+        <div id="fenqu">
+            <div class="fenqu con">
+                <a href="#"><img src="images/fenqu_1.png" alt="" /></a>
+                <a href="#"><img src="images/fenqu_1.png" alt="" /></a>
+                <a href="#"><img src="images/fenqu_1.png" alt="" /></a>
+                <a href="#"><img src="images/fenqu_1.png" alt="" /></a>
+                <a href="#"><img src="images/fenqu_1.png" alt="" /></a>
+            </div>
+        </div>
+        <!-- 搜索框 -->
+        <div id="ss">
+            <div class="ss con">
+                <ul>
+                    <li class="l1">
+                        <a href="#"><img src="images/ss_logo.png" alt="" /></a>
+                    </li>
+                    <li class="l1">
+                        <span><input type="text" placeholder="超级品类日 超级爆款低至三折" /><input type="button" value="搜索"/></span>
+                    </li>
+                    <li >
+                        <a href=""><img src="images/ss_dongtu.png" alt="" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- nav区域 -->
+        <div id="nav">
+            <div class="nav con">
+                <ul class="nav_u1 fl">
+                    <li><h2>商品分类</h2>
+                        <ul class="nav_u3" style="background:white;">
+                            <li>
+                                <h2><a href="#">女装 </a></h2>
+                                    <ul class="nav_u4 fl">
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                    </ul>
+                                    <ul class="nav_u5 fl">
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                    </ul>
+                                    <!-- 三级导航 -->
+                                    <div class="nav1_u1">
+                                        <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                        <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+                                    </div>
+                                <!-- <ul class="nav_u6">
+
+                                    
+                                </ul> -->
+                            </li>
+                            <li>
+                                <h2><a href="#">女装 </a></h2>
+                                    <ul class="nav_u4 fl">
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                    </ul>
+                                    <ul class="nav_u5 fl">
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                    </ul>
+                                     <div class="nav1_u1">
+                                        <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                        <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+                                    </div>
+                            </li>
+                            <li>
+                                <h2><a href="#">女装 </a></h2>
+                                    <ul class="nav_u4 fl">
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                    </ul>
+                                    <ul class="nav_u5 fl">
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                    </ul>
+                                     <div class="nav1_u1">
+                                        <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                        <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+                                    </div>
+                            </li>
+                            <li>
+                                <h2><a href="#">女装 </a></h2>
+                                    <ul class="nav_u4 fl">
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                    </ul>
+                                    <ul class="nav_u5 fl">
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                        <li><a href="#"> 秋新品</a></li>
+                                    </ul>
+                                     <div class="nav1_u1">
+                                        <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                        <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+
+                                         <div class="nav1_d1 fl">
+                                            <h2>女装</h2>
+                                            <hr />
+                                            <ul class="nav1_u2 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u3 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>
+                                               <ul class="nav1_u4 fl">
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                                   <li>保暖上衣</li>
+                                               </ul>   
+                                        </div>
+                                    </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav_u2 fl">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">品牌汇</a></li>
+                    <li><a href="#">发现潮流</a></li>
+                    <li><a href="#">聚划算</a></li>
+                    <li><a href="#">韩国馆</a></li>
+                    <li><a href="#">美国馆</a></li>
+                    <li><a href="#">原创会</a></li>
+                    <li><a href="#">名品馆</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 轮播图 -->
+        <div id="banner">
+            <div class="banner con">
+                <ul>
+                    <!-- <li><img src="images/banner.png" alt=""/></li> -->
+                    <!-- <li><img src="images/banner.png" alt=""/></li>
+                    <li><img src="images/banner.png" alt=""/></li>
+                    <li><img src="images/banner.png" alt=""/></li> -->
+                    <li><img src="images/list_lunbo.jpg" alt="" /></li>
+                    <li><img src="images/list_lunbo1.jpg" alt="" /></li>
+                    <li><img src="images/list_pp1.jpg.jpg" alt="" /></li>
+                    <li><img src="images/list_pp2.jpg.jpg" alt="" /></li>
+                    <li><img src="images/list_hd1.jpg.jpg" alt="" /></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 购物券 -->
+        <div id="quan">
+            <div class="quan con">
+                
+                <img src="images/quan1.png"  alt="" />
+                <img src="images/quan2.png"  alt="" />
+                <img src="images/quan2.png"  alt="" />
+                <img src="images/quan2.png"  alt="" />
+                <img src="images/quan2.png"  alt="" />
+                <img src="images/quan2.png"  alt="" />
+            </div>
+        </div>
+        <!-- 优质商品版块 -->
+        <div id="yz">
+            <div class="yz con">
+                <div class="yz_t">
+                    <a href="#"><img src="images/yz_t.png"  alt="" /></a>
+                </div>
+                <div class="yz_b con">
+                    <a href="#"><img src="images/yz_b1.png"  alt="" /></a>
+                    <a href="#"><img src="images/yz_b2.png"  alt="" /></a>
+                </div>
+            </div>
+        </div>
+        <!-- 产品1 -->
+        <div id="shangpin1">
+            <div class="shangpin1 con">
+                <ul id="mshangpin1">
+                   <!--  <li guid="1">
+                        <img src="images/shangpin1.png"  alt="" />
+                        <p>不规则下摆</p>
+                        <h2>收腰小荷叶</h2>
+                        <span>￥199</span><br />
+                        <input type="button"  value="立即购买"/>
+                    </li>
+                    <li>
+                         <img src="images/shangpin1.png"  alt="" />
+                        <p>不规则下摆</p>
+                        <h2>收腰小荷叶</h2>
+                        <span>￥199</span><br />
+                        <input type="button"  value="立即购买"/>
+                    </li>
+                    <li>
+                         <img src="images/shangpin1.png"  alt="" />
+                        <p>不规则下摆</p>
+                        <h2>收腰小荷叶</h2>
+                        <span>￥199</span><br />
+                        <input type="button"  value="立即购买"/>
+                    </li>
+                    <li>
+                         <img src="images/shangpin1.png"  alt="" />
+                        <p>不规则下摆</p>
+                        <h2>收腰小荷叶</h2>
+                        <span>￥199</span><br />
+                        <input type="button"  value="立即购买"/>
+                    </li>
+                    <li>
+                         <img src="images/shangpin1.png"  alt="" />
+                        <p>不规则下摆</p>
+                        <h2>收腰小荷叶</h2>
+                        <span>￥199</span><br />
+                        <input type="button"  value="立即购买"/>
+                    </li>
+                    <li>
+                         <img src="images/shangpin1.png"  alt="" />
+                        <p>不规则下摆</p>
+                        <h2>收腰小荷叶</h2>
+                        <span>￥199</span><br />
+                        <input type="button"  value="立即购买"/>
+                    </li>
+                    <li>
+                         <img src="images/shangpin1.png"  alt="" />
+                        <p>不规则下摆</p>
+                        <h2>收腰小荷叶</h2>
+                        <span>￥199</span><br />
+                        <input type="button"  value="立即购买"/>
+                    </li>
+                    <li>
+                         <img src="images/shangpin1.png"  alt="" />
+                        <p>不规则下摆</p>
+                        <h2>收腰小荷叶</h2>
+                        <span>￥199</span><br />
+                        <input type="button"  value="立即购买"/>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <!-- 女士专场 -->
+        <div id="nv">
+            <div class="nv con">
+                <div class="nv_t">
+                    <a href="#">
+                        <img src="images/nv_t.png" alt="" />
+                    </a>
+                </div>
+                <div class="nv_m">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/nv_b.png
+                                " alt="" />
+                            </a>
+                            <p><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span>
+                            <input type="button" value="进入专场" />
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/nv_b.png
+                                " alt="" />
+                            </a>
+                            <p><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span>
+                            <input type="button" value="进入专场" />
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/nv_b.png
+                                " alt="" />
+                            </a>
+                            <p><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span>
+                            <input type="button" value="进入专场" />
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/nv_b.png
+                                " alt="" />
+                            </a>
+                            <p><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span>
+                            <input type="button" value="进入专场" />
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/nv_b.png
+                                " alt="" />
+                            </a>
+                            <p><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span>
+                            <input type="button" value="进入专场" />
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/nv_b.png
+                                " alt="" />
+                            </a>
+                            <p><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span>
+                            <input type="button" value="进入专场" />
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/nv_b.png
+                                " alt="" />
+                            </a>
+                            <p><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span>
+                            <input type="button" value="进入专场" />
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/nv_b.png
+                                " alt="" />
+                            </a>
+                            <p><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span>
+                            <input type="button" value="进入专场" />
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/nv_b.png
+                                " alt="" />
+                            </a>
+                            <p><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span>
+                            <input type="button" value="进入专场" />
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/nv_b.png
+                                " alt="" />
+                            </a>
+                            <p><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span>
+                            <input type="button" value="进入专场" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="nv_b">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="images/nv_b1.png" alt="" /></a>
+                            <p class="p1"><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span><br />
+                            <p class="p2"><a href="#">进入专场</a></p>
+                        </li>
+                        <li>
+                             <a href="#"><img src="images/nv_b1.png" alt="" /></a>
+                            <p class="p1"><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span><br />
+                            <p class="p2"><a href="#">进入专场</a></p>
+                        </li>
+                        <li>
+                             <a href="#"><img src="images/nv_b1.png" alt="" /></a>
+                            <p class="p1"><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span><br />
+                            <p class="p2"><a href="#">进入专场</a></p>
+                        </li>
+                        <li>
+                             <a href="#"><img src="images/nv_b1.png" alt="" /></a>
+                            <p class="p1"><a href="#">永恒的经典</a></p>
+                            <span><a href="#">内敛美学体验</a></span><br />
+                            <p class="p2"><a href="#">进入专场</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- tab切换 -->
+        <div id="tab">
+            <div class="tab con">
+                <div class="tab1">
+                    <span>女装</span>
+                    <span>男装/男包</span>
+                    <span>内衣</span>
+                    <span>女包/女鞋</span>
+                </div>
+                <p>女装品牌</p>
+                <div class="tab_b">
+                    <div class="tab_l fl">
+                        <img src="images/tab_l.png"  alt="" />
+                    </div>
+                    <div class="tab_r fl">
+                        <ul>
+                            <li><img src="images/tab_r.png"  alt="" /></li>
+                            <li><img src="images/tab_r.png"  alt="" /></li>
+                            <li><img src="images/tab_r.png"  alt="" /></li>
+                            <li><img src="images/tab_r.png"  alt="" /></li>
+                            <li><img src="images/tab_r.png"  alt="" /></li>
+                            <li><img src="images/tab_r.png"  alt="" /></li>
+                            <li><img src="images/tab_r.png"  alt="" /></li>
+                            <li><img src="images/tab_r.png"  alt="" /></li>
+                        </ul>
+                        <!-- <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 左右轮播图部分 -->
+        <!-- <div id="lunbo">
+            <p class="p1"><img src="images/chaoliu.png" height="82" width="127" alt="" /></p>
+        </div>
+        <div class="focus">
+            <ul>
+                <li><img src="../images/LRlunbo1.jpg"></li>
+                <li><img src="../images/LRlunbo2.jpg"></li>
+                <li><img src="../images/LRlunbo3.jpg"></li>
+            </ul>
+            <div>
+                <i id="left"><img src="../images/jjL.png" id="sc"/></i>
+                <i id="right"><img src="../images/jjR.png" id="sc"/></i>
+            </div>
+        </div>
+
+ -->
+
+
+       <!--  <div id="lunbo">
+        
+                <p class="p1"><img src="images/chaoliu.png" height="82" width="127" alt="" /></p>
+            <div class="lunbo">
+                <div class="lunbo1 fl">
+                    <img id="left" src="images/jjL.png" alt="" />
+                </div>
+                <div class="lunbo2 fl">
+                     <ul>
+                         <li>
+                             <img src="images/lunbo1.jpg" height="244"    width="382" alt="" />
+                         </li>
+                         <li>
+                             <img src="images/lunbo1.jpg" height="244"    width="382" alt="" />
+                         </li>
+                         <li>
+                              <img src="images/lunbo1.jpg" height="244"    width="382" alt="" />
+                         </li>
+                     </ul>
+                </div>
+                <div class="lunbo3 fr">
+                    <span><img id="right" src="images/jjR.png" alt="" /></span>
+                </div>
+                
+            </div>
+        </div> -->
+        <!-- 名人堂 -->
+        <!-- <div id="mrt">
+            <div class="mrt">
+                <img class="im1" src="images/mrt_t.png" height="30" width="103" alt="" />
+                <img class="im1" src="images/mrt_l.png" height="512" width="656" alt="" />
+            </div>
+        </div> -->
+        <!-- 聚划算 -->
+        <div id="jhs">
+            <div class="jhs">
+                <img src="images/juhuasuan.jpg"alt="" />
+            </div>
+        </div>
+        <!-- 品类 -->
+        <div id="pl">
+            <div class="pl con">
+                <div class="pl_t">
+                    <img src="images/pl_l.png" alt="" />
+                </div>
+                <div class="pl_b">
+                    <img src="images/pl_b1.jpg"  alt="" />
+                    <img src="images/pl2.jpg"  alt="" />
+                    <img src="images/pl3.jpg"  alt="" />
+                </div>
+            </div>
+        </div>
+        <!-- 每日上新 -->
+        <div id="new">
+            <div class="new">
+                <div class="new_t">
+                    <img src="images/new_t.png" alt="" />
+                </div>
+                <div class="SP1"><img src="images/new_l.png" alt="" /></div>
+                <div class="new_c">
+                    <img src="images/new1.jpg" alt="" />
+                </div>
+                <div class="SP2"><img src="images/new_r.png"  alt="" /></div>
+            </div>
+        </div>
+        <!-- 列表图标 -->
+        <div id="lb">
+            <div class="lb">
+                <img src="images/liebiaotu.png"  alt="" />
+            </div>
+        </div>
+        <!-- shopping列表 -->
+        <div id="shopping">
+            <div class="shopping con ">
+                <ul id="mshopping">
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                    <li>
+                        <img src="images/shopping1.jpg" alt="" />
+                        <p>
+                            欣然原创时尚改良
+                        </p>
+                        <span class="s1">￥199</span>
+                        <span class="s2">￥399</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <!-- 活动 -->
+    <div id="huodong">
+        <div class="huodong con">
+            <div class="huodong_t">
+                <img src="images/huodong_t.jpg"  alt="" />
+            </div>
+            <div class="huodong_b">
+                <img class="i1" src="images/huodong1.jpg"  alt="" />
+                <img class="i1" src="images/huodong1.jpg"  alt="" />
+                <img class="i1" src="images/huodong1.jpg"  alt="" />
+                <img src="images/huodong1.jpg"  alt="" />
+                <img src="images/huodong1.jpg"  alt="" />
+                <img src="images/huodong1.jpg"  alt="" />
+            </div>
+        </div>
+    </div>
+    <!-- footer底部 -->
+    <div id="footer">
+        <div class="footer">
+            <img src="images/footer.png" alt="" />
+        </div>
+    </div>
+    </body>
+</html>

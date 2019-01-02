@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/details.css" />
+        <script type="text/javascript" src="../lib/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="../lib/jquery-big/jquery.1.4.2-min.js"></script>
+        <script type="text/javascript" src="../js/details.js"></script>
+    </head>
+    <body>
+               <!-- 头部header -->
+        <div id="header">
+            <div class="header con">
+                <ul class="u1 fl">
+                    <li><span class="sp2">梦芭莎首页</span></li>
+                    <li><span class="sp1">100%正品保证</span></li>
+                    <li><span>创立于2006年</span></li>
+                </ul>
+                <ul class="u2 fr">
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">登录</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- header下的分区 -->
+        <div id="fenqu">
+            <div class="fenqu con">
+                <a href="#"><img src="../images/fenqu_1.png" alt="" /></a>
+                <a href="#"><img src="../images/fenqu_1.png" alt="" /></a>
+                <a href="#"><img src="../images/fenqu_1.png" alt="" /></a>
+                <a href="#"><img src="../images/fenqu_1.png" alt="" /></a>
+                <a href="#"><img src="../images/fenqu_1.png" alt="" /></a>
+            </div>
+        </div>
+        <!-- 搜索框 -->
+        <div id="ss">
+            <div class="ss con">
+                <ul>
+                    <li class="l1">
+                        <a href="#"><img src="../images/details_biaozhi.png" alt="" /></a>
+                    </li>
+                    <li class="l1">
+                        <span><input type="text" placeholder="超级品类日 超级爆款低至三折" /><input type="button" value="搜全站"/><input type="button" value="搜本店" /></span>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- nav导航区域  -->
+        <div id="nav">
+            <div class="nav">
+                <div class="nav_t">
+                    <img src="../images/details_biaozhi.png" alt="" />
+                </div>
+                <div class="nav_b">
+                    <ul class="u1 fl">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">周二上新</a></li>
+                        <li><a href="#">发现潮流</a></li>
+                        <li><a href="#">聚划算</a></li>
+                        <li><a href="#">美国馆</a></li>
+                        <li><a href="#">名品馆</a></li>
+                        <li><a href="#">中国馆</a></li>
+                        <li><a href="#">原创馆</a></li>
+                        <li><a href="#">美国馆</a></li>
+                        <li><a href="#">名品馆</a></li>
+                        <li><a href="#">中国馆</a></li>
+                        <li><a href="#">原创馆</a></li>
+                        <li><a href="#"><img src="../images/details_car.png" alt="" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 列表信息 -->
+        <div id="shangpin">
+            <div class="shangpin">
+                <div class="preview fl">
+                   <!--  <div class="shangpin_lt">
+                        <span class="sp"></span>
+                        <img src="../images/details_shangpin1.jpg" alt="" />
+                    </div>
+                    <div class="imgBox">
+                        <img/>
+                    </div>
+                    <div class="shangpin_lb">
+                        <span class="s1"><img src="../images/jjL.png" alt="" /></span>
+                            <ul>
+                                <li><img src="../images/list_pro1.jpg" alt="" /></li>
+                                <li><img src="../images/list_pro2.jpg" alt="" /></li>
+                                <li><img src="../images/list_pro3.jpg" alt="" /></li>
+                                <li><img src="../images/list_pro1.jpg" alt="" /></li>
+                                <li><img src="../images/list_pro2.jpg" alt="" /></li>
+                            </ul>
+                        <span class="s2"><img src="../images/jjR.png" alt="" /></span>
+                    </div> -->
+                    <!-- <p>
+                        <span>商品编码：2232323</span>
+                        <span>收藏</span>
+                    </p> -->
+                    <!-- 放大镜插件 -->
+                    <!-- <div class="preview"> -->
+
+    <div id="vertical" class="bigImg">
+
+        <!-- <img src="../images/shangpin1.png" width="400" height="400" alt="" id="midimg" /> -->
+
+        <div style="display:none;" id="winSelector"></div>
+
+    </div><!--bigImg end--> 
+
+    <div class="smallImg">
+
+        <div class="scrollbutton smallImgUp disabled"></div>
+
+        <div id="imageMenu">
+
+            <ul>
+
+
+                <li><img src="../images/list_pro1.jpg" width="68" height="68" alt="洋妞"/></li>
+
+                <li><img src="../images/list_pro2.jpg" width="68" height="68" alt="洋妞"/></li>
+
+                <li><img src="../images/list_pro3.jpg" width="68" height="68" alt="洋妞"/></li>
+
+                <li><img src="../images/list_pro1.jpg" width="68" height="68" alt="洋妞"/></li>
+
+                <li><img src="../images/list_pro2.jpg" width="68" height="68" alt="洋妞"/></li>
+                 <li><img src="../images/list_pro2.jpg" width="68" height="68" alt="洋妞"/></li>
+                <li><img src="../images/list_pro1.jpg" width="68" height="68" alt="洋妞"/></li>
+
+                <li><img src="../images/list_pro2.jpg" width="68" height="68" alt="洋妞"/></li>
+
+                <li><img src="../images/list_pro3.jpg" width="68" height="68" alt="洋妞"/></li>
+
+                <li><img src="../images/list_pro1.jpg" width="68" height="68" alt="洋妞"/></li>
+
+                <li><img src="../images/list_pro2.jpg" width="68" height="68" alt="洋妞"/></li>
+                 <li><img src="../images/list_pro2.jpg" width="68" height="68" alt="洋妞"/></li>
+            </ul>
+
+        </div>
+
+        <div class="scrollbutton smallImgDown"></div>
+
+    </div><!--smallImg end-->   
+
+    <div id="bigView" style="display:none;"><img width="800" height="800" alt="" src="" /></div>
+
+
+
+<!--preview end-->
+
+                </div>
+                <div class="shangpin_c fl">
+                   <!--  <p class="p1">梦芭莎宽松型荷叶边</p>
+                    <div class="d1">
+                        <span style="color:#E70065">￥</span><span class="p2">399</span>
+                        ￥<span class="s">699</span>
+
+                    </div>
+                    <p class="p3">
+                        <span>颜色</span> 
+                        <span><img src="../images/yanse1.png" alt="" /></span>
+                    </p>
+                    <p class="p4">
+                        <span>尺码</span>
+                        <span><img src="../images/chicun1.png" alt="" /></span>
+                        <span><img src="../images/chicun2.png" alt="" /></span>
+                        <span><img src="../images/chicun3.png" alt="" /></span>
+                        <span><img src="../images/chicun4.png" alt="" /></span>
+                    </p> -->
+                    <!-- 数量 -->
+                   <!--  <p class="p5">
+                        <span>数量</span>
+                        <span class="s1"><input class="number" type="text" value ="1"/><img class="im1" src="../images/jia.png" alt="" /><img class="im2" src="../images/jian.png" alt="" /></span>
+                        <span>现在有货</span>
+                    </p>
+                    <p class="p6">
+                        <input type="button" class="bt1" value="立即购买"/><input type="button" class="bt2" value="加入购物车" />
+                    </p>
+                    <p class="p7">
+                        <span><img src="../images/tui1.png"/>七天无理由退换货</span>
+                        <span><img src="../images/mian1.png"/>满180包邮</span>
+                        <span><img src="../images/tui1.png"/>梦芭莎发货</span>
+
+                    </p> -->
+                </div>
+                <div class="shangpin_r fl">
+                    <ul>
+                        <li>
+                            <img src="../images/side1.jpg" alt="" />
+                            <span>￥299</span>
+                        </li>
+                        <li>
+                             <img src="../images/side2.jpg" alt="" />
+                              <span>￥299</span>
+                        </li>
+                        <li>
+                            <img src="../images/side2.jpg" alt="" />
+                              <span>￥299</span>
+                        </li>
+                      <!--   <li>
+                            <img src="../images/side2.jpg" alt="" />
+                              <span>￥299</span>
+                        </li> -->
+                    </ul>
+                    <span><img src="../images/jia.png" alt="" /></span>
+                    <span><img src="../images/jian.png" alt="" /></span>
+                </div>
+            </div>
+        </div>
+        <!-- 评论内容区 -->
+        <div id="content">
+            <div class="content con">
+                <div class="content_l fl">
+                    <ul>
+                        <li>
+                            <img src="../images/side1.jpg" alt="" />
+                            <span>￥299</span>
+                        </li>
+                        <li>
+                             <img src="../images/side2.jpg" alt="" />
+                              <span>￥299</span>
+                        </li>
+                        <li>
+                            <img src="../images/side2.jpg" alt="" />
+                              <span>￥299</span>
+                        </li>
+                        <li>
+                            <img src="../images/side2.jpg" alt="" />
+                              <span>￥299</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content_r fl">
+                    
+
+                    <!-- <div class="tab"> -->
+                    <header>
+                        <div>商品详情</div>
+                        <div>评价</div>
+                        <div>如何支付</div>
+                        <div>七天无理由</div>
+                    </header>
+                    <div class="show">
+                        <div><img src="../images/pingjia.jpg" alt="" /></div>
+                        <div><img src="../images/pingjia2.jpg" alt="" /></div>
+                        <div><img src="../images/pingjia3.jpg" alt="" /></div>
+                        <div><img src="../images/pingjia4.jpg" alt="" /></div>
+                    </div>
+    <!-- </div> -->
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- footer底部 -->
+        <div id="footer">
+            <div class="footer">
+                <img src="../images/footer.png" alt="" />
+            </div>
+        </div>
+    </body>
+</html>

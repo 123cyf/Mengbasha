@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+         <link rel="stylesheet" type="text/css" href="../css/shoppingList.css" />
+        <link rel="stylesheet" type="text/css" href="../font/iconfont.css" />
+
+        <link rel="stylesheet" type="text/css" href="../lib/jquery-lmCarousel/jquery-lmCarousel.css" />
+        <script src="../lib/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="../lib/jquery-lmCarousel/jquery-lmCarousel.js"></script>
+        <script type="text/javascript" src="../js/shoppingList.js"></script>
+    </head>
+    <body>
+          <!-- 头部header -->
+        <div id="header">
+            <div class="header con">
+                <ul class="u1 fl">
+                    <li><span class="sp1">100%正品保证</span></li>
+                    <li><span>创立于2006年</span></li>
+                </ul>
+                <ul class="u2 fr">
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">注册</a></li>
+                    <li><a href="#">微信</a>
+                        <ul class="header_u3">
+                            <li><img src="../images/header_weixin.jpg" alt="" /></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">微博</a>
+                        <ul class="header_u4">
+                            <li><img src="../images/header_weibo.jpg" alt="" /></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">手机版</a>
+                        <ul class="header_u5">
+                            <li><img src="../images/mengbashashouji.jpg" alt="" /></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">收藏梦芭莎</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">购物车</a>
+                        <div class="header_u6">
+                            <ul >
+                                <li>
+                                    <img src="../images/details_shangpin1.jpg" alt="" />
+                                    <h4>漂亮马甲冬款</h4>
+                                    <span class="header_u6_s1">￥399</span>
+                                    <span class="header_u6_s2">*2</span>
+                                    <input id="header_u6_in1" type="button" value="删除" />
+                                </li>
+                                <li>
+                                     <img src="../images/details_shangpin1.jpg" alt="" />
+                                    <h4>漂亮马甲冬款</h4>
+                                    <span class="header_u6_s1">￥399</span>
+                                    <span class="header_u6_s2">*2</span>
+                                    <input id="header_u6_in1" type="button" value="删除" />
+                                </li>
+                                <!-- <li>
+                                    <img src="images/details_shangpin1.jpg" alt="" />
+                                    <h4>漂亮马甲冬款</h4>
+                                    <span class="header_u6_s1">￥399</span>
+                                    <span class="header_u6_s2">*2</span>
+                                    <input id="header_u6_in1" type="button" value="删除" />
+                                </li> -->
+                            </ul>
+                            <div class="header_u7">
+                                <p class="jiesuan_p3">
+                                    共计<span class="jiesuan_s1">21</span>件商品
+                                    <span class="jiesuan_s2">￥1190</span>
+                                </p>
+                                <input type="text" id="jiesuan_inp1"value="去购物车结算" />
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+         <!-- 定位侧边栏 -->
+        <div class="aside"> 
+            <div class="Top">Top
+                <div class="toTop">返回顶部</div>
+            </div>
+            <ul class="aside_u1">
+                <li><i class="iconfont icon-lianxiren"></i>
+                    <div class="aside_u2">
+                        <img src="../images/aside_denglu.jpg"/><br />
+                        <span>请先登录哦！</span><br />
+                        <input type="text" value="登录" id="inp1" /><input type="text" value="注册" id="inp2"/><br />
+                        <p><input type="text" value="我的订单" id="inp3" /><input type="text" value="我的收藏" id="inp4"/></p>
+                        
+                    </div>
+                </li>
+                <li>
+                    <i class="iconfont icon-gouwuche"></i><a href="">购物车 <span>0</span></a>
+                    <div class="aside_u4">
+                        <h2>购物车</h2>
+                        <p class="aside_u4_p3">梦芭莎</p>
+                        <ul>
+                            <li>
+                                <img src="../images/details_shangpin1.jpg" alt="" />
+                                <h4>漂亮马甲冬款</h4>
+                                <p class="p1">
+                                    <span class="c1">尺寸</span><span class="c2">颜色</span>
+                                </p>
+                                <p class="p2">
+                                    <span class="c3">price</span><span class="c4">*数量</span>
+                                </p>
+                                
+                            </li>
+                            <li>
+                                <img src="../images/details_shangpin1.jpg" alt="" />
+                                <h4>漂亮马甲冬款</h4>
+                                <p class="p1">
+                                    <span class="c1">尺寸</span><span class="c2">颜色</span>
+                                </p>
+                                <p class="p2">
+                                    <span class="c3">price</span><span class="c4">*数量</span>
+                                </p>
+                            </li>
+                            <li></li>
+                        </ul>
+                        <div class="jiesuan">
+                            <p class="jiesuan_p3">共计<span class="jiesuan_s1">21</span>件商品
+                                <span class="jiesuan_s2">￥1190</span>
+                            </p>
+                            <input type="text" id="jiesuan_inp1"value="去购物车结算" />
+                        </div>
+                    </div>
+                </li>
+                <li style="padding-top:20px;"><i class="iconfont icon-shoucang"></i>
+                <!-- <a href="">收藏</a> -->
+                </li>
+                <li style="padding-top:20px;">
+                    <i class="iconfont icon-weixin"></i>
+                    <ul class="aside_u3">
+                            <li>
+                                <img src="../images/mengbashashouji.jpg" alt="" />
+                            </li>
+                    </ul>
+                <!-- <a href="">微信</a> -->
+                </li>
+                <li style="padding-top:20px;"><i class="iconfont icon-kefu"></i>
+                <!-- <a href="">咨询</a> -->
+                </li>
+               
+            </ul>
+         </div>
+
+          <!-- header下的分区 -->
+        <div id="fenqu">
+            <div class="fenqu con">
+                <a href="#"><img src="../images/fenqu_1.png" alt="" /></a>
+                <a href="#"><img src="../images/fenqu_1.png" alt="" /></a>
+                <a href="#"><img src="../images/fenqu_1.png" alt="" /></a>
+                <a href="#"><img src="../images/fenqu_1.png" alt="" /></a>
+                <a href="#"><img src="../images/fenqu_1.png" alt="" /></a>
+            </div>
+        </div>
+        <!-- 搜索框 -->
+        <div id="ss">
+            <div class="ss con">
+                <ul>
+                    <li class="l1">
+                        <a href="#"><img src="../images/ss_logo.png" alt="" /></a>
+                    </li>
+                    <li class="l1">
+                        <span><input type="text" placeholder="超级品类日 超级爆款低至三折" /><input type="button" value="搜索"/></span>
+                    </li>
+                    <li >
+                        <a href=""><img src="../images/ss_dongtu.png" alt="" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- brand品牌区域 -->
+        <div class="searching con">
+            <div class="search con">
+                <h3>共计238件商品</h3>
+                <dl class="brand1">
+                    <dt>品牌</dt>
+                    <dd>
+                       <div class="content1">
+                           <a href="#">名品馆</a>
+                           <a href="#">名品馆</a>
+                           <a href="#">名品馆</a>
+                           <a href="#">名品馆</a>
+                           <a href="#">名品馆</a>
+                           <a href="#">名品馆</a>
+                           <a href="#">名品馆</a>
+                           <a href="#">名品馆</a>
+                       </div> 
+                    </dd>
+                </dl>
+
+
+                <dl class="show">
+                    <dt>女装</dt>
+                    <dd>
+                       <div class="show_content">
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                       </div> 
+                    </dd>
+                </dl>
+
+                 <dl class="show">
+                    <dt>花型</dt>
+                    <dd>
+                       <div class="show_content">
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                       </div> 
+                    </dd>
+                </dl>
+
+                 <dl class="show">
+                    <dt>版型</dt>
+                    <dd>
+                       <div class="show_content">
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                            <span><a href="#">女装</a></span>
+                       </div> 
+                    </dd>
+                </dl>
+               
+               <dl class="dv">
+                    <dt>高级选项</dt>
+                    <dd>
+                       <div class="dv_content">
+                           <a href="#"><span>袖长</span></a>
+                           <a href="#"><span>袖长</span></a> 
+                           <a href="#"><span>袖长</span></a>
+                           <a href="#"><span>袖长</span></a>
+                           <a href="#"><span>袖长</span></a>
+                           <a href="#"><span>袖长</span></a>
+                           <a href="#"><span>袖长</span></a>
+                           <a href="#"><span>袖长</span></a>
+                           <a href="#"><span>袖长</span></a>
+                           <a href="#"><span>袖长</span></a>
+                           <a href="#"><span>袖长</span></a>
+                       </div> 
+                    </dd>
+                        
+                    <dd>
+                        <ul class="s1_content">
+                            <li><a href="#">卫衣</a></li>
+                            <li><a href="#">卫衣</a></li>
+                            <li><a href="#">卫衣</a></li>
+                            <li><a href="#">卫衣</a></li>
+                            <li><a href="#">卫衣</a></li>
+                            <li><a href="#">卫衣</a></li>
+                            <li><a href="#">卫衣</a></li>
+                            <li><a href="#">卫衣</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+
+            </div>
+         </div>
+
+         <div class="filter con">
+             <div class="topdiv">
+                <div class="shping">
+                    <div class="topdiv_on down">
+                        <a title="默认排序" href="?keyword=卫衣 女装&amp;sort=0" class="" rel="nofollow" style="background: rgb(255, 255, 255);">
+                            <span>
+                                综合</span>
+                            <img alt="" src="http://i1.mbscss.com/img/search/2014/08/c_down.png">
+                        </a>
+                    </div>
+                    <div class="topdiv_on down">
+                        <a title="" href="?keyword=卫衣 女装&amp;sort=1" rel="nofollow" style="background: rgb(255, 255, 255);">
+                            <span>
+                                销量</span>
+                            <img alt="" src="http://i1.mbscss.com/img/search/2014/08/c_down.png">
+                        </a>
+                    </div>
+                    <div class="topdiv_on down">
+                        <a title="" href="?keyword=卫衣 女装&amp;sort=2" rel="nofollow" style="background: rgb(255, 255, 255);">
+                            <span>
+                                好评</span>
+                            <img alt="" src="http://i1.mbscss.com/img/search/2014/08/c_down.png">
+                        </a>
+                    </div>
+                    <div class="topdiv_on down">
+                        <a title="最新发布" href="?keyword=卫衣 女装&amp;sort=3" rel="nofollow" class="on">
+                            <span>
+                                最新</span>
+                            <img alt="" src="http://i1.mbscss.com/img/search/2014/08/c_down_h.png">
+                        </a>
+                    </div>
+                   <!--  <div class="topdiv_on down price_sort price_sort_up" style="display: none">
+                        <a title="价格从低到高" href="?keyword=卫衣 女装&amp;sort=5" rel="nofollow">
+                            <span>
+                                价格</span>
+                            <img class="price-i" alt="" src="/images/price_up.png?v=1">
+                        </a>
+                    </div> -->
+                    <div class="topdiv_on price_sort price_sort_down" style="">
+                       <!--  <a title="点击价格从低到高" href="?keyword=卫衣 女装&amp;sort=4" rel="nofollow" style="background: rgb(255, 255, 255);"> -->
+                            <span class="price">
+                                价格</span>
+                            <img class="price-i" alt="" src="/images/price_0.png?v=1">
+                       <!--  </a> -->
+                    </div>
+                    <!-- 判断价格排序按钮 -->
+                     <!-- <script> 
+                        function isPriceSort() {
+                            var val = $("#hsort").val();
+
+                            if (val == "4") {
+                                $(".price_sort_up").show();
+                                $(".price_sort_up").addClass("on");
+                            }
+                            else if (val == "5") {
+                                $(".price_sort_down").show();
+                                $(".price_sort_down").addClass("on");
+                            }
+                            else {
+                                $(".price_sort_down").show();
+                                $(".price_sort_down").find("img").attr("src", "/images/price_0.png?v=1");
+                                $(".price_sort_down").find("a").attr("title", "点击价格从低到高");
+                                $(".price_sort_down").removeClass("on");
+                            }
+                        }
+                        isPriceSort();
+                    </script> -->
+                </div>
+             </div>
+             <!-- 分页 -->
+             <div class="page_list">
+                <strong>共<b>284</b>个商品</strong>
+                <span><b>1</b>/4</span>
+                <a rel="nofollow" class="pageNext on" href="?keyword=卫衣 女装&amp;page=1&amp;sort=3">&lt;</a>
+                <a rel="nofollow" class="pageNext" href="?keyword=卫衣 女装&amp;page=2&amp;sort=3">&gt;</a>
+            </div>
+             
+         </div>
+        <!-- 商品列表 -->
+        <div class="chapList con">
+            <ul>
+               <!--  <li>
+                    <a href="#">
+                        <img src="../images/list_pro1.jpg" alt="" />
+                    </a>
+                    <p class="chap_p1">
+                        <span class="chap_s1">￥178.00</span>
+                        <span class="chap_s2">￥368.00</span>
+                    </p>
+                    <p class="chap_p2">星密2019秋冬新款女装</p>
+                </li> -->
+               <!--  <li>
+                    <a href="#">
+                        <img src="../images/list_pro1.jpg" alt="" />
+                    </a>
+                    <p class="chap_p1">
+                        <span class="chap_s1">￥178.00</span>
+                        <span class="chap_s2">￥368.00</span>
+                    </p>
+                    <p class="chap_p2">星密2019秋冬新款女装</p>
+                </li> -->
+               <!--  <li>
+                    <a href="#">
+                        <img src="../images/list_pro1.jpg" alt="" />
+                    </a>
+                    <p class="chap_p1">
+                        <span class="chap_s1">￥178.00</span>
+                        <span class="chap_s2">￥368.00</span>
+                    </p>
+                    <p class="chap_p2">星密2019秋冬新款女装</p>
+                </li> -->
+               <!--  <li>
+                    <a href="#">
+                        <img src="../images/list_pro1.jpg" alt="" />
+                    </a>
+                    <p class="chap_p1">
+                        <span class="chap_s1">￥178.00</span>
+                        <span class="chap_s2">￥368.00</span>
+                    </p>
+                    <p class="chap_p2">星密2019秋冬新款女装</p>
+                </li> -->
+               <!--  <li>
+                    <a href="#">
+                        <img src="../images/list_pro1.jpg" alt="" />
+                    </a>
+                    <p class="chap_p1">
+                        <span class="chap_s1">￥178.00</span>
+                        <span class="chap_s2">￥368.00</span>
+                    </p>
+                    <p class="chap_p2">星密2019秋冬新款女装</p>
+                </li> -->
+               <!--  <li>
+                    <a href="#">
+                        <img src="../images/list_pro1.jpg" alt="" />
+                    </a>
+                    <p class="chap_p1">
+                        <span class="chap_s1">￥178.00</span>
+                        <span class="chap_s2">￥368.00</span>
+                    </p>
+                    <p class="chap_p2">星密2019秋冬新款女装</p>
+                </li> -->
+                <!--  <li>
+                    <a href="#">
+                        <img src="../images/list_pro1.jpg" alt="" />
+                    </a>
+                    <p class="chap_p1">
+                        <span class="chap_s1">￥178.00</span>
+                        <span class="chap_s2">￥368.00</span>
+                    </p>
+                    <p class="chap_p2">星密2019秋冬新款女装</p>
+                </li> -->
+                <!--  <li>
+                    <a href="#">
+                        <img src="../images/list_pro1.jpg" alt="" />
+                    </a>
+                    <p class="chap_p1">
+                        <span class="chap_s1">￥178.00</span>
+                        <span class="chap_s2">￥368.00</span>
+                    </p>
+                    <p class="chap_p2">星密2019秋冬新款女装</p>
+                </li> -->
+                <!--  <li>
+                    <a href="#">
+                        <img src="../images/list_pro1.jpg" alt="" />
+                    </a>
+                    <p class="chap_p1">
+                        <span class="chap_s1">￥178.00</span>
+                        <span class="chap_s2">￥368.00</span>
+                    </p>
+                    <p class="chap_p2">星密2019秋冬新款女装</p>
+                </li> -->
+                <!--  <li>
+                    <a href="#">
+                        <img src="../images/list_pro1.jpg" alt="" />
+                    </a>
+                    <p class="chap_p1">
+                        <span class="chap_s1">￥178.00</span>
+                        <span class="chap_s2">￥368.00</span>
+                    </p>
+                    <p class="chap_p2">星密2019秋冬新款女装</p>
+                </li> -->
+                <!-- <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li> -->
+            </ul>
+        </div>
+        <!-- 分页 -->
+        <div class="pageNumber">
+            <div class="pageList">
+                
+            </div>
+        </div>
+        <!-- 关键字 -->
+        <div class="kword con">
+            <p><img src="../images/guanjianzi.jpg" alt="" /></p>
+            
+        </div>
+             <!-- footer底部 -->
+        <div id="footer">
+            <div class="footer">
+                <img src="../images/footer.png" alt="" />
+            </div>
+        </div>
+    </body>
+</html>
